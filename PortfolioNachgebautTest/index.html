@@ -249,40 +249,41 @@
 
     <section class="contact" id="contact">
         <h2 class="heading">Kontaktiere <span>Mich!</span></h2>
-
-        <form action="#">
+    
+        <form action="https://formsubmit.co/alex.wirschke18@gmail.com" method="POST">
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Name" required>
+                    <input type="text" name="name" placeholder="Name" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="Email Adresse" required>
+                    <input type="text" name="email" placeholder="Email Adresse" required>
                     <span class="focus"></span>
                 </div>
             </div>
-
+    
             <div class="input-box">
                 <div class="input-field">
-                    <input type="number" placeholder="Telefon Nummer" required>
+                    <input type="number" name="phone" placeholder="Telefon Nummer" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="Betreff" required>
+                    <input type="text" name="subject" placeholder="Betreff" required>
                     <span class="focus"></span>
                 </div>
             </div>
-
+    
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Deine Nachricht" required></textarea>
+                <textarea name="message" cols="30" rows="10" placeholder="Deine Nachricht" required></textarea>
                 <span class="focus"></span>
             </div>
-
+    
             <div class="btn-box">
                 <button type="submit" class="btn">Senden</button>
             </div>
         </form>
     </section>
+    
 </body>
 
 </html>
