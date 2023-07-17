@@ -320,6 +320,8 @@ span {
 
 .about-content {
     text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .about-content h3 {
