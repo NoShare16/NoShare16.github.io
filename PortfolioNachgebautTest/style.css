@@ -594,3 +594,41 @@ span {
         transform: scale(1);
     }
 }
+
+/*BREAKPOINTS*/
+
+@media (max-width: 1650px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 1235px) {
+    html {
+        font-size: 50%;
+    }
+
+    .about-content h3 {
+        font-size: 300%;
+    }
+
+    .about-content p {
+        font-size: 200%;
+    }
+
+    .content {
+        font-size: 200%;
+    }
+
+    .portfolio {
+        height: 50vh;
+    }
+
+    .contact {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 1012px) {
+
+}
