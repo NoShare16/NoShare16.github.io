@@ -241,6 +241,22 @@ section {
     border-radius: 50%;
 }
 
+.glowing-circle .image {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.image img {
+    max-width: 350px;
+    object-fit: cover;
+    transform: translateX(5%);
+    transform: translateY(5%);
+}
+
 .glowing-circle span {
     position: absolute;
     width: 100%;
@@ -304,6 +320,22 @@ span {
     height: 213px;
     background: #081b29;
     border-radius: 50%;
+}
+
+.about-glowing-circle .about-image {
+    position: relative;
+    width: 213px;
+    height: 213px;
+    border-radius: 50%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.about-image img {
+    max-width: 250px;
+    object-fit: cover;
+    transform: translateY(0%);
+    transform: translateX(-10%);
 }
 
 .about-glowing-circle span {
